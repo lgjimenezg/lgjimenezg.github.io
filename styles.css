@@ -119,8 +119,23 @@ article > section header h1 {
     font-size: 16px;
 }
 
+article  {
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
 article p {
     clear: both;
+    background-color: orange;
+    width: 20%;
+    border-style: double;
+    border-width: 1px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 13px; 
+    text-align: center;
+    display: inline-block;
 }
 
 footer p {
