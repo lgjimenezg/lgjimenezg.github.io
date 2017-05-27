@@ -74,13 +74,19 @@ ul, ol {
     top:0px;
 }
 
-section{
+section#posts {
+    float: left;
     background-color: #F8F8FF;
-    width: 100%;
+    width: 70%;
     display: block;
-    padding: 3px;
+    padding: 10px;
+    margin: 10PX;
+}
 
-    
+section#sidebar
+{
+   float: left;
+   width: 25%;
 }
 
 aside{
@@ -117,12 +123,19 @@ article p {
     clear: both;
 }
 
-footer{
-    background-color: #B0E0E6;
-}
 footer p {
 	text-align: center;
-	font-size: 12px;
+	font-size: 13px;
 	color: #888;
 	margin-top: 24px;
+    font-weight: bold;
+}
+
+footer#page_footer
+{
+   clear: both;
+   width: 100%;
+   display: block;
+   text-align: center;
+   background-color: orange;
 }
