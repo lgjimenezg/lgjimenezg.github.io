@@ -122,12 +122,19 @@ article > section header h1 {
 article  {
     margin: 5px;
     padding: 5px;
+    text-align: left;
+}
+
+article#parti  {
+    margin: 5px;
+    padding: 5px;
     text-align: center;
 }
 
+
 article p {
     clear: both;
-    background-color: orange;
+    background-color: lightsteelblue;
     width: 20%;
     border-style: double;
     border-width: 1px;
